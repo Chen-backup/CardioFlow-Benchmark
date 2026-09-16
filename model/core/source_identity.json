@@ -1,0 +1,77 @@
+{
+  "architecture": "strict-conduction-spike-v8-heterogeneous-population",
+  "export": "Reachable definitions; executable statements preserved; comments and docstrings removed",
+  "files": [
+    {
+      "file": "model.py",
+      "source_sha256": "7d540419ca202ca11932c28470bf42d147927594d0037fcb4152fe7cf280b070",
+      "export_sha256": "f0b3cd0f57a7a9c0e0a7fd45723b68b75e887ea16270721e98273721a42e4dd4",
+      "retained_definitions": [
+        "StrictConductionSpikeV8"
+      ]
+    },
+    {
+      "file": "cardiac_core.py",
+      "source_sha256": "bdf227ff3f41b72d17c5be2316e2a0d5fa00c87017516240d0482831e50f810f",
+      "export_sha256": "e0a1cbe9b3202b8993cab9dfce9ffe500309af1b947e0aa67a697316b46ac272",
+      "retained_definitions": [
+        "AdaptiveIAF",
+        "AnatomicalMultipoleProjection",
+        "AnatomicalSourceCurrent",
+        "BoundedGroupRecruitmentCalibrator",
+        "CableCoupledIAF",
+        "CardiacFitzHughNagumo",
+        "CardiacPhaseFoldedReadout",
+        "CausalDelay",
+        "ChannelNorm1d",
+        "ChargeConservingTissueResponse",
+        "ConductionSpike",
+        "ConductionState",
+        "ConductionVelocityRestitution",
+        "ConservedAnatomicalSourceRouter",
+        "ConvNormAct",
+        "ElectrotonicTissueResponse",
+        "EtiologyBoundStateReadout",
+        "MultiCompartmentTempotronReadout",
+        "MultiScaleCardiacDrive",
+        "MultipoleLeadField",
+        "PhysiologicalEvidenceFilter",
+        "PopulationRenewalPhaseResponse",
+        "PositivePopulationMix",
+        "PostIAFRecoveryControl",
+        "RefractoryConductionGraph",
+        "RefractoryGate",
+        "RenewalPhaseResponse",
+        "RepolarizationEcho",
+        "RoleBoundEventReadout",
+        "SoftEtiologyStateReadout",
+        "StateEvidenceReadout",
+        "StationaryWaveletCardiacDrive",
+        "TransmembraneCurrentSource",
+        "WavefrontInferenceBlock",
+        "_DenseFormationDecoder",
+        "_ECRPyramidStage",
+        "_ECRWavePyramid",
+        "_FormationTransitionBlock",
+        "_RoleFormationProjection",
+        "_WaveGrammarBlock",
+        "_WaveStateEncoder",
+        "_fixed_lead_geometry",
+        "_project_lead_coordinates"
+      ]
+    },
+    {
+      "file": "cycle_state.py",
+      "source_sha256": "b18cc1a713eea5496338d5620e5ba40c1df59a3c753bd9091523a738a844aa50",
+      "export_sha256": "529016f10f5162dbcebb46f47aa273f776fb25671fecdeeed56bc6293a800dc2",
+      "retained_definitions": [
+        "CardiacCycleStateMixer",
+        "ChannelLayerNorm",
+        "CycleStateOutput",
+        "DilatedCycleMemoryBlock",
+        "PathologyEvidenceOutput",
+        "PathologyEvidenceQueryHead"
+      ]
+    }
+  ]
+}

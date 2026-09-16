@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+data/
+outputs/
+checkpoints/
+*.pt
+*.pth
+*.npz
+*.npy
+
+.env
+kaggle.json
+*.log

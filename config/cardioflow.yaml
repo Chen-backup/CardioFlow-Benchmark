@@ -1,0 +1,19 @@
+model:
+  population_width: 96
+  dropout: 0.15
+reconstruction_weight: 0.01
+training:
+  learning_rate: 0.0007
+dataset_training:
+  ptbxl:
+    batch_size: 96
+    augment: false
+  cpsc2018:
+    batch_size: 96
+    augment: true
+  ludb:
+    batch_size: 16
+    learning_rate: 0.001
+    augment: false
+    segmentation_class_balance_exponent: 0.25
+    dice_weight: 0.5
